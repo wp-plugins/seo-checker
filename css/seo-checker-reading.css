@@ -1,0 +1,8 @@
+.wrap .option-site-visibility {
+	background: #ffdddd;
+	border: 1px solid red;
+}
+
+.wrap .option-site-visibility th {
+	padding-left: 15px;
+}
