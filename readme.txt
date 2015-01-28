@@ -3,7 +3,7 @@ Contributors: ecommnet, scottsalisbury
 Tags: seo, search engine optimisation, search engine optimization, robots, indexing, google, searching
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,7 +37,17 @@ Sending emails is done using WordPress's built in mail function. If emails aren'
 
 If you're still having trouble then you will have to get in contact with your server host.
 
+== Screenshots ==
+
+1. Screen shot of the dashboard warning message you see when search engines are blocked.
+2. Screen shot of the additional styling added to the Search Engine Visibility option to draw attention to it.
+3. Screen shot of the plugin options panel and notification settings.
+4. Screen shot of an example email notification from the plugin.
+
 == Changelog ==
 
 = 0.1 =
 * First version of the plugin
+
+= 0.2 =
+* Updated readme
