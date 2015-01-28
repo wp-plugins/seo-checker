@@ -9,7 +9,7 @@ function send_notification() {
 	$admin_email = get_option('admin_email');
 
 	if (!empty($admin_email) && strpos($admin_email,'@') !== false) {
-		wp_mail($admin_email, "SEO Checker: Blocked Search Engines Email Reminder", "Search engine traffic is currently being blocked from: " . get_site_url() . "\n\nClick the link below to change this setting:\n" . get_admin_url() . "options-reading.php\n\nClick the link below to find out more about this message:\n" . get_admin_url() . "options-general.php?page=seo-checker-settings");
+		wp_mail($admin_email, "SEO Checker: " . get_bloginfo('name') . " - Blocked Search Engines Email Reminder", "Search engine traffic is currently being blocked from: " . get_home_url() . "\n\nClick the link below to change this setting:\n" . get_admin_url() . "options-reading.php\n\nClick the link below to find out more about this message:\n" . get_admin_url() . "options-general.php?page=seo-checker-settings");
 	}
 }
 

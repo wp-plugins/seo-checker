@@ -3,7 +3,7 @@
 Plugin Name: SEO Checker
 Plugin URI: https://www.ecommnet.uk/seo-checker/
 Description: Simple plugin to detect if search engines are blocked from indexing your site, displays a warning on the admin panel and sends regular email notifications.
-Version: 0.4
+Version: 0.5
 Author: Scott Salisbury
 Author URI: https://www.ecommnet.uk/
 Text Domain: seo-checker
@@ -19,7 +19,7 @@ if (!class_exists('SEO_Checker')) {
 		 * Plugin version number
 		 * @var string
 		 */
-		public $version = '0.1';
+		public $version = '0.5';
 
 		/**
 		 * Single instance of the class
