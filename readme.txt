@@ -3,7 +3,7 @@ Contributors: ecommnet, scottsalisbury
 Tags: seo, search engine optimisation, search engine optimization, robots, indexing, google, searching
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 0.2
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,4 +50,7 @@ If you're still having trouble then you will have to get in contact with your se
 * First version of the plugin
 
 = 0.2 =
+* Updated readme
+
+= 0.3 =
 * Updated readme
